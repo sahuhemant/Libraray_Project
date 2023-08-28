@@ -4,5 +4,6 @@ module AddBook
     add_book_stored=@catalog<<book
     puts "Book Added Successfully !"
     store_book(add_book_stored)
+    puts "jay shri"
   end
 end
